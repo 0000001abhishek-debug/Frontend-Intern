@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    min-height: 100vh;
+}
+
+/* Navbar */
+
+nav {
+    background-color: #232f3e;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 20px;
+}
+
+.navbar h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+/* Search Section */
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input {
+    width: 220px;
+    padding: 8px 12px;
+    border: none;
+    outline: none;
+    border-radius: 3px 0 0 3px;
+    font-size: 14px;
+}
+
+.search-container button {
+    padding: 8px 15px;
+    border: none;
+    background-color: #f5c518;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 0 3px 3px 0;
+    transition: 0.3s ease;
+}
+
+.search-container button:hover {
+    background-color: #ffdd45;
+}
+
+/* Main Section */
+
+main {
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+}
+
+.main-section {
+    text-align: center;
+    justify-content: center;
+    background: #fff;
+    box-shadow: 0px 0px 10px #ccc;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.main-section h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.movie-box{
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.movie-poster img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.movie-info{
+    flex: 1;
+    padding-inline: 15px;
+}
+
+.movie-info h2 {
+    text-align: center;
+    font-size: 32px;
+    margin: 20px 0 10px 0;
+
+}
+
+.movie-genre{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+
+.movie-genre p{
+    background: #1f2937;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+}
+
+.movie-container{
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    box-shadow: 0px 0px 10px #ccc;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.movie-container.noBackground{
+    background: none;
+    box-shadow: none;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background-color: #232f3e;
+    color: white;
+    padding: 20px;
+}
