@@ -6,8 +6,9 @@ const inputBox = document.querySelector('input');
 
 //function to fetch movie details usingONDB API
 const getMovieInfo = async (movie) => {
-const APIKey = "****"; 
-const url = `********`;
+    const APIKey = "*****"; 
+const url = `******`;
+
 
     try {
         const response = await fetch(url);
