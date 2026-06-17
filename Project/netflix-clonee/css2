@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Netflix Clone</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="hero">
+
+  <nav class="navbar">
+
+  <h1 class="logo">NETFLIX</h1>
+
+  <div class="nav-right">
+
+    <select class="language">
+
+      <option>English</option>
+      <option>Hindi</option>
+      <option>Telugu</option>
+
+    </select>
+
+    <button class="sign-btn">
+      Sign In
+    </button>
+
+  </div>
+
+</nav>
+
+  <div class="hero-content">
+
+    <div class="hero-content">
+
+  <h1>
+    Unlimited movies, TV shows and more
+  </h1>
+
+  <h3>
+    Starts at ₹149. Cancel at any time.
+  </h3>
+
+  <p>
+    Ready to watch? Enter your email to create or restart your membership.
+  </p>
+
+  <div class="email-box">
+
+    <input type="email" placeholder="Email address">
+
+    <button>
+      Get Started >
+    </button>
+
+  </div>
+
+</div>
+
+    
+
+</header>
+
+<section class="movies">
+
+  <h2>Trending Now</h2>
+
+  <div class="movie-row">
+
+    
+    <div class="movie-card">
+      <img src="https://picsum.photos/300/450?2">
+    </div>
+
+    <div class="movie-card">
+      <img src="https://picsum.photos/300/450?3">
+    </div>
+
+    <div class="movie-card">
+      <img src="https://picsum.photos/300/450?4">
+    </div>
+
+    <div class="movie-card">
+      <img src="https://picsum.photos/300/450?5">
+    </div>
+
+  </div>
+
+</section>
+
+<section class="movies">
+
+  <h2>Popular on Netflix</h2>
+
+  <div class="movie-row">
+
+    <div class="movie-card">
+      <img src="https://picsum.photos/300/450?6">
+    </div>
+
+    <div class="movie-card">
+      <img src="https://picsum.photos/300/450?7">
+    </div>
+
+    <div class="movie-card">
+      <img src="https://picsum.photos/300/450?8">
+    </div>
+
+    <div class="movie-card">
+      <img src="https://picsum.photos/300/450?9">
+    </div>
+
+    
+
+  </div>
+
+</section>
+
+<section class="reasons">
+
+  <h2 style="font-size:40px">More reasons to join</h2>
+
+<div class="reason-card">
+
+    <p>
+        <span style="font-size:32px;font-weight:700;display:block;margin-bottom:15px;">
+            Enjoy on your TV
+        </span>
+
+        Watch on smart TVs, PlayStation, Xbox,
+        Chromecast, Apple TV, Blu-ray players and more.
+    </p>
+
+</div>
+
+<div class="reason-card">
+
+    <p>
+        <span style="font-size:32px;font-weight:700;display:block;margin-bottom:15px;">
+            Download your shows
+        </span>
+
+        Save your favourites easily and always have
+        something to watch.
+    </p>
+
+</div>
+    <div class="reason-card">
+
+    <p>
+        <span style="font-size:32px;font-weight:700;display:block;margin-bottom:15px;">
+            Watch everywhere
+        </span>
+
+        Stream unlimited movies and TV shows on your phone,
+        tablet, laptop and TV.
+    </p>
+
+</div>
+
+    <div class="reason-card">
+
+    <p>
+        <span style="font-size:32px;font-weight:700;display:block;margin-bottom:15px;">
+            Create profiles for kids
+        </span>
+
+        Send kids on adventures with their favourite
+        characters in a space made just for them.
+    </p>
+
+</div>
+  </div>
+
+</section>
+<section class="faq">
+
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+
+    <button class="faq-question">
+      What is Netflix?
+    </button>
+
+    <div class="faq-answer">
+      Netflix is a streaming platform that offers movies and TV shows.
+    </div>
+
+  </div>
+
+  <div class="faq-item">
+
+    <button class="faq-question">
+      How much does Netflix cost?
+    </button>
+
+    <div class="faq-answer">
+      Plans vary based on your region and subscription type.
+    </div>
+
+  </div>
+
+  <div class="faq-item">
+
+    <button class="faq-question">
+      Where can I watch?
+    </button>
+
+    <div class="faq-answer">
+      Watch anywhere on mobile, tablet, laptop, and TV.
+    </div>
+
+  </div>
+
+</section>
+<section class="bottom-email">
+
+    <p>
+        Ready to watch? Enter your email to create or restart your membership.
+    </p>
+
+    <div class="bottom-email-box">
+
+        <input type="email" placeholder="Email address">
+
+        <button>
+            Get Started >
+        </button>
+
+    </div>
+
+</section>
+<footer class="footer">
+
+  <p class="footer-top">
+   <span> Questions? Call 000-800-919-1743</span>
+  </p>
+
+  <div class="footer-links">
+
+    <div class="footer-column">
+      <a href="#">FAQ</a>
+      <a href="#">Investor Relations</a>
+      <a href="#">Privacy</a>
+      <a href="#">Speed Test</a>
+    </div>
+
+    <div class="footer-column">
+      <a href="#">Help Centre</a>
+      <a href="#">Jobs</a>
+      <a href="#">Cookie Preferences</a>
+      <a href="#">Legal Notices</a>
+    </div>
+
+    <div class="footer-column">
+      <a href="#">Account</a>
+      <a href="#">Ways to Watch</a>
+      <a href="#">Corporate Information</a>
+      <a href="#">Only on Netflix</a>
+    </div>
+
+    <div class="footer-column">
+      <a href="#">Media Centre</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">Contact Us</a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+
+    <p class="netflix-india">
+      Netflix India
+    </p>
+
+  </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
